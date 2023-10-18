@@ -11,7 +11,6 @@
 //
 // Execute `rustlings hint hashmaps2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 use std::collections::HashMap;
 
@@ -49,7 +48,10 @@ mod tests {
         basket.insert(Fruit::Apple, 4);
         basket.insert(Fruit::Mango, 2);
         basket.insert(Fruit::Lychee, 5);
-
+        // at_least_five_types_of_fruits 种类>=5
+        // greater_than_eleven_fruits  总数 >=1
+        basket.insert(Fruit::Banana, 5);
+        basket.insert(Fruit::Pineapple, 5);
         basket
     }
 
